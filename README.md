@@ -13,6 +13,30 @@ Operations below will help us to find out which possible mutations helped T5 pha
 - Indexing(Samtools). 
 - Sorting (samtools). 
 - Calling(bcftools).
+## Scripts discriptions.
+
+### **.SH SCRIPT**
+
+This script basically do the following:
+1. Make quality check
+2. Trimm the reads after Illumina Sequencing
+3. Make an indexing with a reference to find the positions where alignment happening and transforming into smaller .bam file
+4. Make statistics on the alignment for choosing the best candidate
+5. Sorting
+6. Alignment with indexing
+7. Variant calling
+_additional material could be found in lecture 2 [Notion link]_
+
+### **Snakefile description**
+> Basically Snakefile automates process of analysing multiple
+> reads and make your work much easier if we are talking about 
+> hundreds of files.
+
+_Extended version of description_:
+1. Sample and References Definition (how our reads are called)
+2. Define Directories (to not write "os.path.join" all the time
+3. Create directories
+4. Create rules which are taking corresponding reads and make with them all the things that .sh script does except trimming and quality check.
 
 ## Obtained results
 
