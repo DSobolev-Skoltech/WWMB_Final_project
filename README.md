@@ -16,20 +16,23 @@ Operations below will help us to find out which possible mutations helped T5 pha
 
 ## Obtained results
 
-Results were studied in the following files: T5_AI_69_S60_variants.vcf (was obtained manually by using script step by step);                  variants_filtered_T5_sample_AI-70_S61.vcf (Snakemake),  
-variants_filtered_T5_sample_AI-72_S63.vcf (Snakemake),
-variants_filtered_T5_sample_AI-69_S60.vcf (Snakemake), 
-variants_filtered_T5_sample_AI-71_S62.vcf (Snakemake),
-variants_filtered_T5_sample_AI-73_S64.vcf (Snakemake).
-Other results were dropped because off insignificancy. 
-For the 69_S60 were obtained 2 significant mutations:
+Results were studied in the following files: 
+- T5_AI_69_S60_variants.vcf (was obtained manually by using script step by step);
+- variants_filtered_T5_sample_AI-70_S61.vcf (Snakemake),  
+- variants_filtered_T5_sample_AI-72_S63.vcf (Snakemake),
+- variants_filtered_T5_sample_AI-69_S60.vcf (Snakemake), 
+- variants_filtered_T5_sample_AI-71_S62.vcf (Snakemake),
+- variants_filtered_T5_sample_AI-73_S64.vcf (Snakemake).
+- Other results were dropped because off insignificancy. 
+
+### For the **69_S60** were obtained 2 significant mutations:
 '''sh
 #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  mapped_sorted/T5_AI_69_S60_aligned_sorted.bam
 T5      57822   .       G       A       225     LowQual DP=243;VDB=0.000940976;SGB=-0.693147;MQSB=1;MQ0F=0;AC=1;AN=1;DP4=0,0,177,39;MQ=60       GT:PL   1:255,0
 T5      65803   .       GTT     GT      199     LowQual INDEL;IDV=207;IMF=0.848361;DP=244;VDB=0.959859;SGB=-0.693147;MQSB=1;MQ0F=0;AC=1;AN=1;DP4=33,2,167,42;MQ=60      GT:PL   1:226,0
 '''
 
-For the 70_S61 were obtained 4 significant mutations:
+### For the **70_S61** were obtained 4 significant mutations:
 ```sh
 #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  mapped_sorted/sorted_T5_sample_AI-70_S61.bam
 T5      57743   .       C       T       225     PASS    DP=240;VDB=0.00293369;SGB=-0.693147;MQSB=1;MQ0F=0;AC=1;AN=1;DP4=0,0,146,59;MQ=60        GT:PL   1:255,0
@@ -38,21 +41,21 @@ T5      65861   .       C       T       225     PASS    DP=236;VDB=0.517555;SGB=
 T5      82088   .       G       A       225     PASS    DP=245;VDB=0.27637;SGB=-0.693147;MQSB=0.98947;MQ0F=0;AC=1;AN=1;DP4=0,0,82,114;MQ=59     GT:PL   1:255,0
 ```
 
-For the 71_S62 were obtained 2 significant mutations:
+### For the **71_S62** were obtained 2 significant mutations:
 ```sh
 #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  mapped_sorted/sorted_T5_sample_AI-71_S62.bam
 T5      57746   .       T       C       225     PASS    DP=243;VDB=0.00670713;SGB=-0.693147;MQSB=1;MQ0F=0;AC=1;AN=1;DP4=0,0,182,41;MQ=60        GT:PL   1:255,0
 T5      65853   .       TGGGG   TGGGGG  141     PASS    INDEL;IDV=195;IMF=0.795918;DP=245;VDB=0.517428;SGB=-0.693147;MQSB=1;MQ0F=0;AC=1;AN=1;DP4=24,13,162,46;MQ=60     GT:PL   1:168,0
 ```
 
-For the 72_S63 were obtained 2 significant mutations:
+### For the **72_S63** were obtained 2 significant mutations:
 ```sh
 #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  mapped_sorted/sorted_T5_sample_AI-72_S63.bam
 T5      57885   .       A       G       225     PASS    DP=245;VDB=0.235075;SGB=-0.693147;MQSB=1;MQ0F=0;AC=1;AN=1;DP4=0,0,192,38;MQ=60  GT:PL   1:255,0
 T5      65930   .       A       G       225     PASS    DP=243;VDB=0.263467;SGB=-0.693147;MQSB=1;MQ0F=0;AC=1;AN=1;DP4=0,0,159,58;MQ=60  GT:PL   1:255,0
 ```
 
-For the 73_S64 were obtained 17! significant mutations:
+### For the **73_S64** were obtained 17! significant mutations:
 ```sh
 #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  mapped_sorted/sorted_T5_sample_AI-73_S64.bam
 T5      6972    .       A       T       4.38466 PASS    DP=249;VDB=0;SGB=-0.693147;MQSB=1;MQ0F=0.895582;AC=1;AN=1;DP4=0,0,132,91;MQ=0   GT:PL   1:32,0
