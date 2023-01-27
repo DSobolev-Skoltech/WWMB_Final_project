@@ -89,7 +89,7 @@ Telegram: @nagibator113
 ### Link to the notion with all usefull notes
 There you go: [Notion link]
 
-![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Fthanl-you-for-your-attention-gifs&psig=AOvVaw3UNN1juJspJlnEMv9cscJ1&ust=1674935806649000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKjeyp_E6PwCFQAAAAAdAAAAABAR)
+![Alt Text](https://media.istockphoto.com/id/1320162763/de/foto/vielen-dank-f%C3%BCr-ihre-aufmerksamkeit-farbwalze-mit-blauer-farbe-auf-einer-holzoberfl%C3%A4che.jpg?s=612x612&w=0&k=20&c=22inaTbjjWxcEmdEzEeldHR4FpwLcQ9TxRhedwNh7Rk=)
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 [Notion link]: <https://www.notion.so/c64a9219030349128c0fd11a4f097248?v=42a6084c5b034b24a79c41ea4e49110e>
